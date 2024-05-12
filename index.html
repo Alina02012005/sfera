@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="">
+	<title>Sphere</title>
+	<!-- Favicon -->
+	<link rel="icon" href="img/logo_short.png" type="img/png">
+	<link rel="shortcut icon" href="img/logo_short.png" type="img/png">
+	<!-- CSS Styles -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script defer src="js/main.js"></script>
+</head>
+<body>
+    <nav class="navigation"> 
+		<div class="container">
+			<div class="navbar d-flex">
+				<a href="index.html" class="logo__link">
+					<img src="img/logo.png" alt="">
+				</a>
+				<ul class="navbar__menu">
+					<li class="menu__item">
+						<a href="index.html" class="navbar__link">Главная</a>
+					</li>
+					<li class="menu__item">
+						<a href="catalog.html" class="navbar__link">Каталог</a>
+					</li>
+					<li class="menu__item">
+						<a href="contacts.html" class="navbar__link">Контакты</a>
+					</li>
+				</ul>
+				<button class="navbar__btn" id="burger">
+					<span></span><span></span><span></span>
+				</button>
+			</div>
+		</div>
+	</nav>
+	<header class="header">
+		<div class="container">
+			<div class="header__ofr d-flex">
+				<div class="header__info">
+					<h1 class="header__title">Продажа и производство <h2 class="header__title2">ритуальных изделий</h2></h1>
+					<p class="header__subtitle">Наша молодая, но стремительно развивающаяся организация занимается производством и продажей товаров ритуального назначения.</p>
+					<a href="catalog.html" class="header__btn">Каталог</a>
+				</div>
+				<img src="img/ograda_1.png" alt="img" class="header__img">
+			</div>
+		</div>
+	</header>
+	<section class="work">
+        <div class="container">
+           <h2 class="work__title">Наши работы</h2>
+			<ul class="work__menu d-flex">
+				<li class="work__item">
+					<img src="img/krest_1.png" alt="">
+				</li>
+				<li class="work__item">
+					<img src="img/table_1.png" alt="">
+				</li>
+				<li class="work__item">
+					<img src="img/bench_1.png" alt="">
+				</li>
+				<li class="work__item">
+					<img src="img/ograda_2.png" alt="">
+				</li>
+				<li class="work__item work__item-last">
+					<img src="img/table_2.png" alt="">
+				</li>
+			</ul>
+		</div>
+	</section>
+    <section class="assortment">
+		<div class="container">
+			<h2 class="assortment__title">У нас в ассортименте вы найдете:</h2>
+			<p class="assortment__subtitle">Искусственные цветы, венки, корзины, лампадки и вазы:</p>
+			<ul class="assortment__menu d-flex">
+				<li class="assortment__item">
+					<img src="img/wreath_1.png" alt="">
+				</li>
+				<li class="assortment__item">
+					<img src="img/lamp_1.png" alt="">
+				</li>
+				<li class="assortment__item">
+					<img src="img/lamp_2.png" alt="">
+				</li>
+				<li class="assortment__item">
+					<img src="img/wreath_2.png" alt="">
+				</li>
+			</ul>
+			<p class="assortment__subtitle">Металлические ограды, кресты, столы, лавки:</p>
+			<ul class="assortment__menu d-flex">
+				<li class="assortment__item">
+					<img src="img/ograda_3.png" alt="">
+				</li>
+				<li class="assortment__item">
+					<img src="img/table_3.png" alt="">
+				</li>
+				<li class="assortment__item">
+					<img src="img/krest_1.png" alt="">
+				</li>
+				<li class="assortment__item">
+					<img src="img/bench_2.png" alt="">
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="adress">
+		<div class="container d-flex">
+			<iframe id="map" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4668.88242139523!2d45.08154553187479!3d54.18997149215323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414405c62d5041e9%3A0xf8a1931629498a87!2z0JrQu9GO0YfQsNGA0ZHQstGB0LrQvtC1INGILiwg0KDQtdGB0L8uINCc0L7RgNC00L7QstC40Y8!5e0!3m2!1sru!2sru!4v1715390264435!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="adress_info">
+				<h2 class="adress__title">Адрес:</h2>
+				<p class="adress__subtitle">Ключаревское шоссе,<br>
+					остановка общественного транспорта №1</p>
+				<form method="get" name="contact_form" class="form__menu">
+					<p class="form__text">Обратная связь</p>
+					<input type="text" id="name" name="name" class="input" placeholder="Имя">
+					<input id="telNo" name="telNo" type="tel" class="input" placeholder="Телефон">
+					<textarea id="textarea" class="textarea" placeholder="Сообщение"></textarea>
+					<button type="submit" class="btn">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container d-flex">
+			<a href="index.html" class="footer__logo">
+				<img src="img/logo.png" alt="">
+			</a>
+			<div class="footer__contacts">
+				<a href="tel:+79022332503" class="footer__btn">Заказать звонок</a>
+				<a href="tel:+79022332503" class="tel">+7 902 233 25 03</a>
+				<a href="tel:+79271824192" class="tel">+7 927 182 41 92</a>
+			</div>
+		</div>
+	</footer>
+	</body>
+	<script>
+		var pressedButton = document.getElementsByClassName("btn")[0];
+	  pressedButton.addEventListener("click", function (event) {
+	  alert("Ваше cообщение отправлено!")
+		})
+	</script>
+</html>
